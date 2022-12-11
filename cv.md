@@ -16,4 +16,8 @@
 
 ## Skills and Proficiency:
 
+## Courses:
+
+## Languages:
+
 ## Code example:
