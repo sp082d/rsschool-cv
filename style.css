@@ -13,12 +13,25 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 30px;
+}
+
+.contact-info {
+    flex: 0 1 500px;
+    padding: 10px 20px;
 }
 
 main {
     min-height: 80vh;
     display: flex;
+}
+
+.about-me {
+    flex: 0 1 900px;
+    padding: 30px 150px;
+}
+
+h2 {
+    margin-bottom: 30px;
 }
 
 header {
