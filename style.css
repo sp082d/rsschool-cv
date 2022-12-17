@@ -9,6 +9,18 @@
     margin: 0 auto;
 }
 
+.list-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+main {
+    min-height: 80vh;
+    display: flex;
+}
+
 header {
     width: 100%;
     min-height: 100px;
