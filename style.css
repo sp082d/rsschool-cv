@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.list-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px
+}
+
+.contact-info {
+    flex: 0 1 500px;
+    padding: 40px 30px;
+}
+
+main {
+    min-height: 80vh;
+    display: flex;
+}
+
+.about-me {
+    flex: 0 1 900px;
+    padding: 30px 150px;
+}
+
+h2 {
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+header {
+    width: 100%;
+    min-height: 100px;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*--------------- Footer ---------------*/
+
+footer {
+    padding: 10px 40px;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-img {
+    width: 100px;
+}
